@@ -75,3 +75,14 @@ void heapify(int arr[], int n, int i) {
 }
 
 
+
+
+| Algorithm      | Best Case Time Complexity | Average Case Time Complexity | Worst Case Time Complexity | Space Complexity | In-place | Stable | Remarks |
+|----------------|---------------------------|------------------------------|----------------------------|------------------|----------|--------|---------|
+| Heap Sort      | O(n log n)                | O(n log n)                   | O(n log n)                 | O(1)             | Yes      | No     | Heap sort builds a heap from the input data and then repeatedly extracts the maximum element from the heap and rebuilds the heap. |
+| Merge Sort     | O(n log n)                | O(n log n)                   | O(n log n)                 | O(n)             | No       | Yes    | Merge sort divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. |
+| Quicksort      | O(n log n)                | O(n log n)                   | O(n^2)                     | O(log n)         | Yes      | No     | Quicksort picks an element as pivot and partitions the given array around the picked pivot. The choice of pivot affects the performance. |
+| Radix Sort     | O(nk)                     | O(nk)                        | O(nk)                      | O(n + k)         | No       | Yes    | Radix sort sorts the input array digit by digit, starting from the least significant digit to the most significant digit. `k` is the number of digits in the max value. |
+| Insertion Sort | O(n)                      | O(n^2)                       | O(n^2)                     | O(1)             | Yes      | Yes    | Insertion sort works by taking elements from the unsorted list and inserting them at their correct position into a new sorted list. |
+| Bubble Sort    | O(n)                      | O(n^2)                       | O(n^2)                     | O(1)             | Yes      | Yes    | Bubble Sort works by repeatedly swapping the adjacent elements if they are in wrong order. This algorithm is known for its simplicity but is inefficient for large lists. |
+
